@@ -72,13 +72,13 @@ article p {
     color: #555;
 }
 
-a[target="_blank"] {
+a {
     color: #ff7ca0;
     font-weight: bold;
     text-decoration: none;
 }
 
-a[target="_blank"]:hover {
+a:hover {
     text-decoration: underline;
 }
 
