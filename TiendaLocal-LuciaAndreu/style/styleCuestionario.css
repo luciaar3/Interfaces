@@ -37,7 +37,7 @@ nav ul li a:hover {
 }
 
 main {
-    max-width: 600px;
+    max-width: 650px;
     margin: 30px auto;
     padding: 20px;
     background-color: white;
@@ -58,7 +58,6 @@ form label {
 }
 
 form input,
-form select,
 form textarea {
     width: 100%;
     padding: 10px;
@@ -69,7 +68,7 @@ form textarea {
     font-family: 'Poppins', sans-serif;
 }
 
-button, input[type="submit"] {
+button {
     background-color: #ffb6c1;
     border: none;
     color: white;
@@ -81,7 +80,7 @@ button, input[type="submit"] {
     transition: background-color 0.3s;
 }
 
-button:hover, input[type="submit"]:hover {
+button:hover {
     background-color: #ff8ca3;
 }
 
@@ -89,7 +88,6 @@ footer {
     text-align: center;
     background-color: #ffeaf1;
     padding: 15px;
-    margin-top: 30px;
 }
 
 footer p {
