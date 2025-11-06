@@ -1,16 +1,57 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio de sesión - IES Serpis</title>
+  <link rel="stylesheet" href="styles/styleIndex.css">
 </head>
 <body>
-    <section id="inicioSesion">
-        <div>
-            <h2>Inicio Sesión</h2>
+
+  <div class="container-fluid p-0">
+    <div class="row g-0">
+      
+      <!-- Panel izquierdo -->
+      <div class="col-md-6 left-panel d-flex flex-column justify-content-center align-items-center text-white">
+        <h1 class="fw-bold mb-5">IES SERPIS</h1>
+        <img class="" src="images/logoPrincipal.png">
+      </div>
+
+      <!-- Panel derecho -->
+      <div class="col-md-6 d-flex justify-content-center align-items-center bg-light">
+        <div class="login-box p-4 rounded shadow">
+          <h3 class="text-center mb-3 fw-semibold">Inicio Sesión</h3>
+          <p class="text-center text-muted mb-4">
+            Por favor rellene la siguiente información
+          </p>
+
+          <form>
+            <div class="mb-3">
+              <label for="usuario" class="form-label">Nombre de usuario / NIA</label>
+              <input type="text" id="usuario" class="form-control" placeholder="Introduce tu usuario">
+            </div>
+
+            <div class="mb-3">
+              <label for="password" class="form-label">Contraseña</label>
+              <input type="password" id="password" class="form-control" placeholder="********">
+            </div>
+
+            <p class="text-center text-muted mb-2">O inicie sesión desde su Correo Electrónico</p>
+
+            <div class="input-group mb-3">
+              <input type="email" class="form-control" placeholder="Correo electrónico">
+              <button class="btn btn-outline-primary" type="button">Next →</button>
+            </div>
+
+            <div class="text-center">
+              <a href="#" class="text-decoration-none">¿No puedes iniciar sesión?</a>
+            </div>
+          </form>
         </div>
-    </section>
+      </div>
+
+    </div>
+  </div>
+
 </body>
 </html>
-
