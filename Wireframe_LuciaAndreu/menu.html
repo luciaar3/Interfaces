@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comedor Escolar - Menú Semanal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styleMenu.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Comedor Escolar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carrusel -->
+  <div id="comedorCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-image: url('images/menu1.jpg');"></div>
+      <div class="carousel-item" style="background-image: url('images/menu2.jpg');"></div>
+      <div class="carousel-item" style="background-image: url('images/menu3.jpg');"></div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#comedorCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#comedorCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- Contenido -->
+  <div class="container text-center my-5">
+    <h1 class="mb-4 text-primary">Menú Semanal</h1>
+    <table class="table table-bordered table-hover align-middle">
+      <thead class="table-primary">
+        <tr>
+          <th>Día</th>
+          <th>Primer plato</th>
+          <th>Segundo plato</th>
+          <th>Postre</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Lunes</td><td>Macarrones con tomate</td><td>Pollo al horno</td><td>Fruta</td></tr>
+        <tr><td>Martes</td><td>Ensalada mixta</td><td>Merluza al vapor</td><td>Yogur</td></tr>
+        <tr><td>Miércoles</td><td>Lentejas estofadas</td><td>Tortilla francesa</td><td>Plátano</td></tr>
+        <tr><td>Jueves</td><td>Arroz al horno</td><td>Albóndigas</td><td>Natillas</td></tr>
+        <tr><td>Viernes</td><td>Gazpacho</td><td>Filete de cerdo con patatas</td><td>Helado</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Pie -->
+  <footer class="bg-primary text-white text-center py-3">
+    <p class="mb-1">© 2025 Colegio IES Serpis - Todos los derechos reservados</p>
+    <div>
+      <a href="#" class="text-white me-3">Facebook</a>
+      <a href="#" class="text-white me-3">Instagram</a>
+      <a href="#" class="text-white">Twitter</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

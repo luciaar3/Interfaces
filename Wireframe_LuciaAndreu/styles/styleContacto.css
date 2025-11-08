@@ -1,0 +1,19 @@
+body {
+  background-color: #f4f8ff;
+}
+
+form {
+  background-color: #ffffff;
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: rgba(237, 189, 190, 0.45);
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

@@ -3,23 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inicio de sesión - IES Serpis</title>
+  <title>Inicio de Sesión - IES Serpis</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styles/styleIndex.css">
 </head>
 <body>
-
   <div class="container-fluid p-0">
     <div class="row g-0">
       
-      <!-- Panel izquierdo -->
-      <div class="col-md-6 left-panel d-flex flex-column justify-content-center align-items-center text-white">
-        <h1 class="fw-bold mb-5">IES SERPIS</h1>
-        <img class="" src="images/logoPrincipal.png">
+      <!-- PANEL IZQUIERDO -->
+      <div class="col-md-6 left-panel d-flex flex-column justify-content-between">
+        <div class="top-section">
+          <button class="btn btn-outline-light mb-3 ms-3 mt-3">☰ Menú</button>
+          <h1 class="text-center fw-bold logo-text">IES SERPIS</h1>
+        </div>
+        <div class="bottom-section text-center text-white">
+          <img src="images/logoContacto.png" alt="Logo IES Serpis">
+        </div>
       </div>
 
-      <!-- Panel derecho -->
+      <!-- PANEL DERECHO -->
       <div class="col-md-6 d-flex justify-content-center align-items-center bg-light">
-        <div class="login-box p-4 rounded shadow">
+        <div class="login-box shadow-lg p-4 rounded bg-white">
           <h3 class="text-center mb-3 fw-semibold">Inicio Sesión</h3>
           <p class="text-center text-muted mb-4">
             Por favor rellene la siguiente información
@@ -27,21 +32,20 @@
 
           <form>
             <div class="mb-3">
-              <label for="usuario" class="form-label">Nombre de usuario / NIA</label>
-              <input type="text" id="usuario" class="form-control" placeholder="Introduce tu usuario">
+              <input type="text" id="usuario" class="form-control" placeholder="Nombre de usuario / NIA">
             </div>
 
             <div class="mb-3">
-              <label for="password" class="form-label">Contraseña</label>
               <input type="password" id="password" class="form-control" placeholder="********">
             </div>
 
             <p class="text-center text-muted mb-2">O inicie sesión desde su Correo Electrónico</p>
 
             <div class="input-group mb-3">
-              <input type="email" class="form-control" placeholder="Correo electrónico">
+              <input type="email" class="form-control" placeholder="Correo Electrónico">
               <button class="btn btn-outline-primary" type="button">Next →</button>
             </div>
+            <hr>
 
             <div class="text-center">
               <a href="#" class="text-decoration-none">¿No puedes iniciar sesión?</a>
@@ -53,5 +57,6 @@
     </div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
