@@ -4,9 +4,21 @@ body, html {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.bg-pink {
+  background-color: #f5b8c4;
+}
+
+.text-pink {
+  color: #d16d8a;
+}
+button:hover {
+  background-color: #ffe180;
+  transition: 0.2s;
+}
+
 /* Panel izquierdo */
 .left-panel {
-  background-image: url('fondo-serpis.jpg'); /* no consigo poner esta imagen desde mis recursos, para que cree un fondo con imagen y no se superponga al titulo*/
+  background-image: url('/Wireframe_LuciaAndreu/images/logoPrincipal.png');
   color: white;
   min-height: 75vh;
   position: relative;
@@ -38,14 +50,4 @@ body, html {
 .login-box .form-control:focus {
   border-color: #0d6efd;
   box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .left-panel {
-    display: none; /* Se oculta el panel izquierdo en pantallas pequeñas */
-  }
-  body {
-    background-color: #f8f9fa;
-  }
 }

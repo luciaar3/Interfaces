@@ -1,17 +1,23 @@
 body {
-  background-color: #f4f8ff;
+  background-color: #fffafc;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-form {
-  background-color: #ffffff;
+.bg-pink {
+  background-color: #f5b8c4;
 }
 
-button {
-  transition: all 0.2s ease;
+.text-pink {
+  color: #d16d8a;
+}
+
+.bg-yellow {
+  background-color: #fff2b2;
 }
 
 button:hover {
-  background-color: rgba(237, 189, 190, 0.45);
+  background-color: #ffe180;
+  transition: 0.2s;
 }
 
 footer a:hover {
